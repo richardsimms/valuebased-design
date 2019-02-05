@@ -252,13 +252,13 @@ imageoverlap:nth-child(2) {
   max-width: 800px;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-columns: 1fr 3fr;
   margin: 0 40px;
   justify-items: end;
 
 
   @media (max-width: 640px) {
-      grid-template-columns: 1fr 1fr auto;
+      grid-template-columns: 1fr 3fr;
       grid-gap: 10px;
       justify-items: center;
       margin: 0 20px;

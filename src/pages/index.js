@@ -1,15 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Wave from '../components/Wave';
 
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Value-Based design " keywords={[`Value`, `Design`, `human-centred`,`products`]} />
+    <SEO title="Value-based design " keywords={[`Value`, `Design`, `human-centred`,`products`]} />
     <div>
     <div>
       <div className="Hero">
