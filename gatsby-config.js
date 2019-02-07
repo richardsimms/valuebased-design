@@ -2,8 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Value based Design`,
     description: `Vaule-based ia a process to deliver real value across all of product design and development.`,
-    keywords: `Vaule-based, design, strategy, consulting, product design, ethnography, ethnographic research, insight, culture, understanding, experiments`,
-    author: `@gatsbyjs`,
+    keywords: `Vaule-based, design, strategy, consulting, product design, ethnography, ethnographic research, insight, culture, understanding, experiments, business, course,`,
+    author: `Richard Simms`,
+    siteUrl: `https://www.valuebased.design`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +17,22 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.valuebased.design',
+        sitemap: 'https://www.valuebased.design/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-56512737-3",
+        respectDNT: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

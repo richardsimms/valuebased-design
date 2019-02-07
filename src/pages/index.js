@@ -6,7 +6,7 @@ import Wave from '../components/Wave';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Creating valuable products" keywords={[`Value`, `Design`, `human-centred`,`products`]} />
+    <SEO title="Creating valuable products" keywords={[`Value`, `Design`, `human-centred`,`products`, `Vaule-based`,`strategy`, `consulting`, `product design`, `ethnography`, `ethnographic research`, `insight`, `culture`, `understanding`, `experiments`, `business`, `course`,]} />
     <div>
     <div>
       <div className="Hero">
