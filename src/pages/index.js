@@ -13,7 +13,8 @@ const IndexPage = () => (
         <div className="HeroGroup">
           <h1>At the centre of human-centred design lies value</h1>
           <h2>Deliver real value across all of product design and development. Though continuous research, measurement, and experimentations to increase confidence and put value at the centre of my work.</h2>
-          <p><a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">Read more on Medium</a></p>
+          <p><a href="https://vbd.substack.com">Read more</a></p>
+          <iframe width="480" height="320" src="https://vbd.substack.com/embed" frameborder="0" scrolling="no"></iframe>
           <div className="Logos">
             <img src={require('../images/logo_lean-startup.png')}  width="50px" alt="Lean Startup" />
             <img src={require('../images/logo-mtp.png')}  width="50px" alt="Mind the Product" />
