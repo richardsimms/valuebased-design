@@ -12,7 +12,7 @@ const IndexPage = () => (
       <div className="Hero">
         <div className="HeroGroup">
           <h1>At the centre of human-centred design lies value</h1>
-          <h2>Deliver real value across all of product design and development. Though continuous research, measurement, and experimentations to increase confidence and put value at the centre of my work.</h2>
+          <h2>Deliver real value across all of product design and development. Through continuous research, measurement, and experimentations to increase confidence and put value at the centre of my work.</h2>
           <p><a href="https://vbd.substack.com">Read more</a></p>
           <div className="Logos">
             <img src={require('../images/logo_lean-startup.png')}  width="50px" alt="Lean Startup" />
